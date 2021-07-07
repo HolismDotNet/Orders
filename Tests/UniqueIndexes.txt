@@ -1,0 +1,3 @@
+﻿IX_Categories_Unique_ParentCategoryId_And_Title
+IX_CategoryItems_Unique_CategoryId_And_EntityToken_And_EntityTypeToken
+IX_Tags_Unique_Name
