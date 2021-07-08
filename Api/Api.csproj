@@ -3,8 +3,8 @@
   <Import Project="/HolismDotNet/Framework/DotNet.targets" />
 
   <PropertyGroup>
-    <AssemblyName>Holism.Ticketing.Api</AssemblyName>
-    <RootNamespace>Holism.Ticketing.Api</RootNamespace>
+    <AssemblyName>Holism.Orders.Api</AssemblyName>
+    <RootNamespace>Holism.Orders.Api</RootNamespace>
   </PropertyGroup>
 
   <Import Project="/HolismDotNet/Framework/Api.targets" />

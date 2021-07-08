@@ -1,10 +1,10 @@
 
 // using Holism.Api.Controllers;
 // using Holism.Business;
-// using Holism.Ticketing.Business;
-// using Holism.Ticketing.Models;
+// using Holism.Orders.Business;
+// using Holism.Orders.Models;
 
-// namespace Holism.Ticketing.Api.Controllers
+// namespace Holism.Orders.Api.Controllers
 // {
 //     public class ServiceOrderController : ReadController<ServiceOrder>
 //     {

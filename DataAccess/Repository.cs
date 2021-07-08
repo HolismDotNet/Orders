@@ -5,6 +5,14 @@ namespace Holism.Orders.DataAccess
 {
     public class Repository
     {
+        public static Repository<Cart> Cart
+        {
+            get
+            {
+                return new Holism.DataAccess.Repository<Cart>(new OrderContext());
+            }
+        }
+
         public static Repository<Order> Order
         {
             get

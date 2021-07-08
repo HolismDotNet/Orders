@@ -1,14 +1,16 @@
-﻿// using Holism.Orders..Business;
-// using Microsoft.AspNetCore.Mvc;
+﻿
+// using Holism.Api.Controllers;
+// using Holism.Business;
 
-// namespace Holism.Orders.Controllers
+// namespace Holism.Orders.Api.Controllers
 // {
-//     public class SubscriptionController : DefaultController
-//     {
+//     public class SubscriptionController 
+//     {        
 //         [HttpGet]
 //         public object State()
 //         {
 //             return new ServiceOrderBusiness().GetState(UserId);
 //         }
+
 //     }
 // }
