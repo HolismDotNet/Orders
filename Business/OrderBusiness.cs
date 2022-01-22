@@ -1,6 +1,4 @@
-
-
-namespace Holism.Orders.Business;
+namespace Orders;
 
 public class OrderBusiness : Business<Order, Order>
 {
