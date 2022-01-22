@@ -1,22 +1,15 @@
-using System;
+namespace Holism.Orders.Models;
 
-namespace Holism.Orders.Models
+public class Order : IEntity
 {
-    public class Order : Holism.Models.IEntity
+    public Order()
     {
-        public Order()
-        {
-            RelatedItems = new System.Dynamic.ExpandoObject();
-        }
-
-        public long Id { get; set; }
-
-        public long UserToken { get; set; }
-
-        public DateTime Date { get; set; }
-
-        public string PersianDate { get; private set; }
-
-        public dynamic RelatedItems { get; set; }
+        RelatedItems = new ExpandoObject();
     }
+
+    public long Id { get; set; }
+
+    public DateTime UtcDate { get; set; }
+
+    public dynamic RelatedItems { get; set; }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "Orders",
+    "tables": [
+        {
+            "name": "Orders",
+            "columns": [
+                {
+                    "name": "Date"
+                }
+            ]
+        }
+    ]
+}
