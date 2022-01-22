@@ -1,6 +1,6 @@
 using Holism.Orders.DataAccess;
 
-namespace Holism.Orders.DataAccess;
+namespace Holism.Orders.Business;
 
 public class OrderBusiness : Business<Order, Order>
 {
