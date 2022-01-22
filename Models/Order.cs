@@ -1,4 +1,4 @@
-namespace Holism.Orders.Models;
+namespace Orders;
 
 public class Order : IEntity
 {

@@ -1,4 +1,4 @@
-namespace Holism.Orders.DataAccess;
+namespace Orders;
 
 public class OrdersContext : DatabaseContext
 {

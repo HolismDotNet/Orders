@@ -1,12 +1,12 @@
-namespace Holism.Orders.DataAccess;
+namespace Orders;
 
 public class Repository
 {
-    public static Repository<Order> Order
+    public static Repository<Orders.Order> Order
     {
         get
         {
-            return new Repository<Order>(new OrdersContext());
+            return new Repository<Orders.Order>(new OrdersContext());
         }
     }
 }
